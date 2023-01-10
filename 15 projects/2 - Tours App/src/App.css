@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ToursData{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+body{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.Tour{
+  width: 450px;
+  /* height: 520px; */
+  background-color: rgb(209, 230, 230);
+  margin: 25px;
+}
+
+.Tour img{
+  width: 100%;
+  height: 250px;
+}
+.Tour .Details h3{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.Tour .Details{
+  padding: 15px;
+}
+
+.Tour .Details span{
+  color: blue;
+  cursor: pointer;
+}
+
+.Tour .Details p{
+  /* background-color: antiquewhite; */
+  /* height: 125px; */
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.Tour .Details .header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+

@@ -1,0 +1,44 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.App{
+  margin-top: 45px;
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.List{
+
+  display: flex;
+  height: 50px;
+  /* background-color: aqua; */
+  width: 300px;
+  justify-content: flex-start;
+  margin: 25px  10px;
+  align-items: center;
+  padding: 5px 20px;
+
+}
+.List img{
+  width: 50px;
+  height: 50px;
+}
+.List h4{
+  font-size: 15px;
+  margin: 0px 10px;
+}
+.List p{
+  font-size: 13px;
+  margin: 0px 10px;
+}
+.List img{
+  border-radius: 25px;
+}
