@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.Review{
+  width: 250px;
+  text-align: center;
+  margin-top: 50px;
+  background-color: aliceblue;
+  padding: 15px;
+}
+
+.Review p{
+  font-size: 15px;
+}
+
+.Review img{
+  width: 70px;
+  height: 80px;
+}
