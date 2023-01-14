@@ -1,0 +1,46 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.Main{
+  /* background-color: aqua; */
+  width: 600px;
+}
+
+.Main .Right .List{
+  position: relative;
+}
+
+.Main .Right .List .plus{
+  position: absolute;
+  top: 4px;
+  right: 0;
+  background-color: rgba(68, 45, 45, 0.404);
+  width: 50px;
+  height: 40px;
+
+  border-radius: 25px;
+  
+}
+
+
+.Main .Right .List h3{
+  background-color:antiquewhite;
+  margin: 25px 0px;
+  padding: 5px;
+
+}
+
+
+
+.Main .Right .List .Active{
+  display: block;
+}
